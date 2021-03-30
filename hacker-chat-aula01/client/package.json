@@ -1,0 +1,16 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Cliente para aplicação Hacker Chat da Semana Javascript Expert",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Jesus",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}
