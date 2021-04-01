@@ -1,0 +1,24 @@
+{
+  "name": "@williamjesusdev/hacker-chat-client",
+  "version": "1.0.0",
+  "description": "Cliente para aplicação Hacker Chat da Semana Javascript Expert 03",
+  "main": "index.js",
+  "bin": {
+    "hacker-chat": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:user01": "node index.js --username william --room sala01 --hostUri http://localhost:9898",
+    "start:user02": "node index.js --username williamjesus --room sala01 --hostUri http://localhost:9898",
+    "start:user03": "node index.js --username williamjesus --room sala02 --hostUri http://localhost:9898",
+    "start:user04": "node index.js --username williamjesus --room sala02 --hostUri https://w-hacker-chat.herokuapp.com",
+    "start:user05": "node index.js --username williamjesus --room sala02 --hostUri https://w-hacker-chat.herokuapp.com",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Jesus",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}
