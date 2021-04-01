@@ -1,5 +1,5 @@
 {
-  "name": "@williamjesusdev/hacker-chat-client",
+  "name": "@williamjesusdev/hacker-chat",
   "version": "1.0.0",
   "description": "Cliente para aplicação Hacker Chat da Semana Javascript Expert 03",
   "main": "index.js",
